@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Mina|Roboto');
+* {
+ box-sizing: border-box;
+ font-family: 'Mina', sans-serif;
+}
+
+.container {
+ width: 100vw;
+ height: 100vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-wrap: wrap;
+ background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/dd309606-8fed-4235-a6fc-d820bd44d600/dess7ol-b88021b5-ee13-44a1-8e5d-9d8b739fd44b.jpg/v1/fill/w_1920,h_1080,q_75,strp/sign_by_hakhalifa_dess7ol-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTA4MCIsInBhdGgiOiJcL2ZcL2RkMzA5NjA2LThmZWQtNDIzNS1hNmZjLWQ4MjBiZDQ0ZDYwMFwvZGVzczdvbC1iODgwMjFiNS1lZTEzLTQ0YTEtOGU1ZC05ZDhiNzM5ZmQ0NGIuanBnIiwid2lkdGgiOiI8PTE5MjAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.PAUHL3evIeLf4GnapxwX9Ji1iVL62FMb9pDW5WCoxBg);
+ background-size: cover; 
+}
+
+.form {
+ width: 35vw;
+ margin: 0 auto;
+ padding: 40px;
+ /*box-shadow:20px 20px 50px grey;  */
+ background-color: white;
+}
+
+.form input[type=text], input[type=password] {
+ width: 100%;
+ padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+.form input[type=text]:focus, input[type=password]:focus {
+    border: 3px solid #555;
+}
+
+.form input[type=submit] {
+ width: 100%;
+ background-color: #555;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 16px 2px 4px 2px;
+    cursor: pointer;
+    outline: none;
+    transition: 0.5s;
+}
+
+.form input[type=submit]:hover {
+ background-color: #123;
+}
